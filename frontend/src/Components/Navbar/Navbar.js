@@ -218,6 +218,16 @@ const Navbar = () => {
             </Box>
           </Toolbar>
         </Container>
+        <Box
+          sx={{
+            textAlign: "center",
+            background: "pink",
+            color: "black",
+            fontWeight: "700",
+          }}
+        >
+          <p>Super Deal! Free Shipping on Orders Over Rs.10,000</p>
+        </Box>
       </AppBar>
     </div>
   );

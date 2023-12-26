@@ -1,5 +1,4 @@
 import "./App.css";
-import Navbar from "./Components/Navbar/Navbar";
 import { Routes, Route } from "react-router-dom";
 import Shop from "./Pages/Shop/Shop";
 import Men from "./Pages/Men/Men";
@@ -8,7 +7,7 @@ import Login from "./Pages/Login/Login";
 import Cart from "./Pages/Cart/Cart";
 import Home from "./Pages/Home/Home";
 import SignIn from "./Pages/SignIn/SignIn";
-
+import ProductList from "./Pages/ProductList/ProductList";
 function App() {
   return (
     <div className="App">
@@ -23,6 +22,7 @@ function App() {
         <Route path="/Login" element={<Login />} />
         <Route path="/SignIn" element={<SignIn />} />
         <Route path="/Cart" element={<Cart />} />
+        <Route path="/ProductList" element={<ProductList />} />
       </Routes>
     </div>
   );
